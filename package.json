@@ -1,0 +1,29 @@
+{
+  "name": "typeorm-naming-strategy",
+  "version": "0.1.0",
+  "description": "Custom TypeORM naming strategies",
+  "author": "Mikhail V. Chervyakov",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "package": "gulp package",
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "postinstall": "rm -rf dist && tsc -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "peerDependencies": {
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "prettier": "^1.19.1",
+    "ts-jest": "25.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "5.20.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typeorm": "^0.2.24",
+    "typescript": "^3.7.4"
+  }
+}
