@@ -4,8 +4,13 @@ Package for snake-case naming of indexes and constraints in TypeORM.
 
 ## Installation
 
+Add to dependecies in package.json this line:
+```
+"typeorm-naming-strategy": "https://github.com/samaramike/typeorm-naming-strategy.git"
+```
+and run
 ```bash
-$ npm install samaramike/typeorm-naming-strategy
+npm install
 ```
 
 ## Usage
